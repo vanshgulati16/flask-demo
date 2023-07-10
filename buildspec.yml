@@ -1,8 +1,5 @@
 version: 0.2
 phases:
-  install:
-    runtime-versions:
-      docker: 18
     commands:
       - echo cloning terraform files from github..
       - git clone https://github.com/vanshgulati16/new-sevice.git
